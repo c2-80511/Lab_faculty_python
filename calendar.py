@@ -9,7 +9,7 @@ for i in range(int(start_day_of_month)):
     print("    ",end="")
 itr=7-int(start_day_of_month)
 for i in range(days_of_month):
-    if i<10:
+    if i<9:
         print(" ",end="")
         print(i+1,end="  ")
     else:
